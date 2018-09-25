@@ -8,6 +8,10 @@
 
 <https://www.sli.do/>
 
+## 共筆
+
+<https://colab.research.google.com/drive/146IPrcO8UCy0xJNRw3ZPKFu2WARFB43F>
+
 ## 課程教科書
 
 [Python資料科學學習手冊](https://www.books.com.tw/products/0010774364)
