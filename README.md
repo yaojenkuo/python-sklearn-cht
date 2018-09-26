@@ -2,7 +2,7 @@
 
 ## 簡介
 
-這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在中華電信學院的 Python 課程，課程時數 30 小時。
+這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在中華電信學院的 Python 課程，課程時數 6 小時。
 
 ## 課堂互動工具（Event Code:2424）
 
