@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>00-Preliminaries slides</title>
+<title>01-Web-Scraping-101 slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13242,7 +13242,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#36629;&#39686;&#23416;&#32722;-Python-|-&#24478;&#22522;&#30990;&#21040;&#25033;&#29992;&#65292;&#25104;&#28858;&#21021;&#32026;-Python-&#36039;&#26009;&#20998;&#26512;&#24107;">&#36629;&#39686;&#23416;&#32722; Python | &#24478;&#22522;&#30990;&#21040;&#25033;&#29992;&#65292;&#25104;&#28858;&#21021;&#32026; Python &#36039;&#26009;&#20998;&#26512;&#24107;<a class="anchor-link" href="#&#36629;&#39686;&#23416;&#32722;-Python-|-&#24478;&#22522;&#30990;&#21040;&#25033;&#29992;&#65292;&#25104;&#28858;&#21021;&#32026;-Python-&#36039;&#26009;&#20998;&#26512;&#24107;">&#182;</a></h1><blockquote><p>Preliminaries：建置環境</p>
+<h1 id="&#36629;&#39686;&#23416;&#32722;-Python-|-&#24478;&#22522;&#30990;&#21040;&#25033;&#29992;&#65292;&#25104;&#28858;&#21021;&#32026;-Python-&#36039;&#26009;&#20998;&#26512;&#24107;">&#36629;&#39686;&#23416;&#32722; Python | &#24478;&#22522;&#30990;&#21040;&#25033;&#29992;&#65292;&#25104;&#28858;&#21021;&#32026; Python &#36039;&#26009;&#20998;&#26512;&#24107;<a class="anchor-link" href="#&#36629;&#39686;&#23416;&#32722;-Python-|-&#24478;&#22522;&#30990;&#21040;&#25033;&#29992;&#65292;&#25104;&#28858;&#21021;&#32026;-Python-&#36039;&#26009;&#20998;&#26512;&#24107;">&#182;</a></h1><blockquote><p>如何擷取網頁內容（網路爬蟲）</p>
 </blockquote>
 <p>郭耀仁</p>
 
@@ -13252,9 +13252,41 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#24517;&#20462;">&#24517;&#20462;<a class="anchor-link" href="#&#24517;&#20462;">&#182;</a></h2><ul>
-<li>Gmail 帳號</li>
-<li>基礎 Python 程式設計</li>
+<h2 id="&#35506;&#31243;&#32177;&#35201;">&#35506;&#31243;&#32177;&#35201;<a class="anchor-link" href="#&#35506;&#31243;&#32177;&#35201;">&#182;</a></h2><ul>
+<li>網頁資料擷取的核心任務</li>
+<li>由 Web API 擷取網頁資料</li>
+<li>由 HTML 擷取網頁資料</li>
+<li>操縱自動化瀏覽器擷取網頁資料</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#32178;&#38913;&#36039;&#26009;&#25847;&#21462;&#30340;&#26680;&#24515;&#20219;&#21209;">&#32178;&#38913;&#36039;&#26009;&#25847;&#21462;&#30340;&#26680;&#24515;&#20219;&#21209;<a class="anchor-link" href="#&#32178;&#38913;&#36039;&#26009;&#25847;&#21462;&#30340;&#26680;&#24515;&#20219;&#21209;">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#30436;&#40670;&#26680;&#24515;&#20219;&#21209;">&#30436;&#40670;&#26680;&#24515;&#20219;&#21209;<a class="anchor-link" href="#&#30436;&#40670;&#26680;&#24515;&#20219;&#21209;">&#182;</a></h2><p>以 Python 豐富的模組、Chrome 瀏覽器外掛與開發者工具來進行兩項核心任務：</p>
+<ol>
+<li>獲得資料</li>
+<li>解析資料</li>
+</ol>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#29554;&#24471;&#36039;&#26009;">&#29554;&#24471;&#36039;&#26009;<a class="anchor-link" href="#&#29554;&#24471;&#36039;&#26009;">&#182;</a></h2><ul>
+<li>使用 <a href="https://chrome.google.com/webstore/detail/quick-javascript-switcher/geddoclleiomckbhadiaipdggiiccfje">Quick JavaScript Switcher</a> 與 Chrome 開發者工具判斷網頁資料類型</li>
+<li>以 <code>requests</code> 或 <code>selenium</code> 發送 HTTP 請求獲得網頁資料</li>
 </ul>
 
 </div>
@@ -13263,9 +13295,37 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#29872;&#22659;">&#29872;&#22659;<a class="anchor-link" href="#&#29872;&#22659;">&#182;</a></h1><ul>
-<li>課程採用 <a href="https://colab.research.google.com">Google Colab</a> 的環境</li>
-<li>需要 Gmail 帳號與 Chrome 瀏覽器</li>
+<h2 id="&#35299;&#26512;&#36039;&#26009;">&#35299;&#26512;&#36039;&#26009;<a class="anchor-link" href="#&#35299;&#26512;&#36039;&#26009;">&#182;</a></h2><ul>
+<li>如果網頁資料是 JSON 格式：以 <code>requests</code> 獲取後可直接以 Python 資料結構解析</li>
+<li>如果網頁資料是 XML 格式：以 <code>lxml</code> 搭配 XPath 解析</li>
+<li>如果網頁資料是 HTML 格式：以 <code>pyquery</code> 或 <code>selenium</code> 搭配 CSS Selector 解析</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#30001;-Web-API-&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#30001; Web API &#25847;&#21462;&#32178;&#38913;&#36039;&#26009;<a class="anchor-link" href="#&#30001;-Web-API-&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#24171;&#21161;&#28687;&#35261;-Web-API-&#36039;&#26009;&#22806;&#35264;&#30340;-Chrome-&#22806;&#25499;">&#24171;&#21161;&#28687;&#35261; Web API &#36039;&#26009;&#22806;&#35264;&#30340; Chrome &#22806;&#25499;<a class="anchor-link" href="#&#24171;&#21161;&#28687;&#35261;-Web-API-&#36039;&#26009;&#22806;&#35264;&#30340;-Chrome-&#22806;&#25499;">&#182;</a></h2><p><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc">JSON View</a></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Web-API-&#36039;&#26009;&#31684;&#20363;">Web API &#36039;&#26009;&#31684;&#20363;<a class="anchor-link" href="#Web-API-&#36039;&#26009;&#31684;&#20363;">&#182;</a></h2><ul>
+<li><a href="https://opendata.epa.gov.tw/ws/Data/AQI/?$format=json">空氣品質指標(AQI)</a></li>
+<li><a href="https://data.nba.com/">data.nba</a></li>
+<li><a href="https://ecshweb.pchome.com.tw/search/v3.3/all/results?q=macbook&amp;page=1&amp;sort=sale/dc">PChome</a></li>
 </ul>
 
 </div>
@@ -13274,14 +13334,9 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#38283;&#21855;-Google-Cloud-Drive">&#38283;&#21855; Google Cloud Drive<a class="anchor-link" href="#&#38283;&#21855;-Google-Cloud-Drive">&#182;</a></h2>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#26032;&#22686;&#12289;&#26356;&#22810;&#12289;&#36899;&#32080;&#26356;&#22810;&#25033;&#29992;&#31243;&#24335;">&#26032;&#22686;&#12289;&#26356;&#22810;&#12289;&#36899;&#32080;&#26356;&#22810;&#25033;&#29992;&#31243;&#24335;<a class="anchor-link" href="#&#26032;&#22686;&#12289;&#26356;&#22810;&#12289;&#36899;&#32080;&#26356;&#22810;&#25033;&#29992;&#31243;&#24335;">&#182;</a></h2><p><img src="images/connect-more-apps.png" alt=""></p>
+<h2 id="&#21028;&#26039;&#32178;&#38913;&#36039;&#26009;&#39006;&#22411;">&#21028;&#26039;&#32178;&#38913;&#36039;&#26009;&#39006;&#22411;<a class="anchor-link" href="#&#21028;&#26039;&#32178;&#38913;&#36039;&#26009;&#39006;&#22411;">&#182;</a></h2><ul>
+<li>以 <a href="https://ecshweb.pchome.com.tw/search/v3.3/?q=macbook">https://ecshweb.pchome.com.tw/search/v3.3/?q=macbook</a> 示範</li>
+</ul>
 
 </div>
 </div>
@@ -13289,7 +13344,10 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#25628;&#23563;-Colaboratory">&#25628;&#23563; Colaboratory<a class="anchor-link" href="#&#25628;&#23563;-Colaboratory">&#182;</a></h2><p><img src="images/search-colab.png" alt=""></p>
+<h2 id="&#29554;&#24471;&#33287;&#35299;&#26512;-Web-API-&#36039;&#26009;">&#29554;&#24471;&#33287;&#35299;&#26512; Web API &#36039;&#26009;<a class="anchor-link" href="#&#29554;&#24471;&#33287;&#35299;&#26512;-Web-API-&#36039;&#26009;">&#182;</a></h2><ul>
+<li>JSON 格式</li>
+<li>XML 格式</li>
+</ul>
 
 </div>
 </div>
@@ -13297,34 +13355,22 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#36899;&#32080;-Colaboratory">&#36899;&#32080; Colaboratory<a class="anchor-link" href="#&#36899;&#32080;-Colaboratory">&#182;</a></h2><p><img src="images/connect-colab.png" alt=""></p>
+<h2 id="&#29554;&#24471;&#33287;&#35299;&#26512;-Web-API-&#36039;&#26009;&#65306;JSON-&#26684;&#24335;">&#29554;&#24471;&#33287;&#35299;&#26512; Web API &#36039;&#26009;&#65306;JSON &#26684;&#24335;<a class="anchor-link" href="#&#29554;&#24471;&#33287;&#35299;&#26512;-Web-API-&#36039;&#26009;&#65306;JSON-&#26684;&#24335;">&#182;</a></h2><p>以 <a href="https://opendata.epa.gov.tw/ws/Data/AQI/?$format=json">https://opendata.epa.gov.tw/ws/Data/AQI/?$format=json</a> 示範</p>
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#27298;&#26597;&#29872;&#22659;">&#27298;&#26597;&#29872;&#22659;<a class="anchor-link" href="#&#27298;&#26597;&#29872;&#22659;">&#182;</a></h2>
-</div>
-</div>
-</div></section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;numpy:&#39;</span><span class="p">,</span> <span class="n">numpy</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
 
-<span class="kn">import</span> <span class="nn">pandas</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;pandas:&#39;</span><span class="p">,</span> <span class="n">pandas</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
-
-<span class="kn">import</span> <span class="nn">matplotlib</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;matplotlib:&#39;</span><span class="p">,</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
-
-<span class="kn">import</span> <span class="nn">sklearn</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scikit-learn:&#39;</span><span class="p">,</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+<span class="n">aqi_url</span> <span class="o">=</span> <span class="s2">&quot;https://opendata.epa.gov.tw/ws/Data/AQI/?$format=json&quot;</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">aqi_url</span><span class="p">,</span> <span class="n">verify</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">aqi</span> <span class="o">=</span> <span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">aqi</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13341,10 +13387,19 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>numpy: 1.15.4
-pandas: 0.23.4
-matplotlib: 3.0.2
-scikit-learn: 0.20.1
+<pre>&lt;class &#39;list&#39;&gt;
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/Users/kuoyaojen/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py:847: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
 </pre>
 </div>
 </div>
@@ -13352,6 +13407,522 @@ scikit-learn: 0.20.1
 </div>
 </div>
 
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#29554;&#24471;&#33287;&#35299;&#26512;-Web-API-&#36039;&#26009;&#65306;XML-&#26684;&#24335;">&#29554;&#24471;&#33287;&#35299;&#26512; Web API &#36039;&#26009;&#65306;XML &#26684;&#24335;<a class="anchor-link" href="#&#29554;&#24471;&#33287;&#35299;&#26512;-Web-API-&#36039;&#26009;&#65306;XML-&#26684;&#24335;">&#182;</a></h2><p>以 <a href="https://opendata.epa.gov.tw/ws/Data/AQI/?$format=xml">https://opendata.epa.gov.tw/ws/Data/AQI/?$format=xml</a> 示範</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">aqi_url</span> <span class="o">=</span> <span class="s2">&quot;https://opendata.epa.gov.tw/ws/Data/AQI/?$format=xml&quot;</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">aqi_url</span><span class="p">,</span> <span class="n">verify</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/Users/kuoyaojen/anaconda3/lib/python3.7/site-packages/urllib3/connectionpool.py:847: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">lxml</span> <span class="k">import</span> <span class="n">etree</span>
+<span class="kn">from</span> <span class="nn">io</span> <span class="k">import</span> <span class="n">BytesIO</span>
+
+<span class="n">f</span> <span class="o">=</span> <span class="n">BytesIO</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+<span class="n">tree</span> <span class="o">=</span> <span class="n">etree</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="n">site_names</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">text</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tree</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s2">&quot;/AQI/Data/SiteName&quot;</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">site_names</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[&#39;屏東(琉球)&#39;, &#39;苗栗(後龍)&#39;, &#39;彰化(大城)&#39;, &#39;臺南(北門)&#39;, &#39;富貴角&#39;, &#39;麥寮&#39;, &#39;關山&#39;, &#39;馬公&#39;, &#39;金門&#39;, &#39;馬祖&#39;, &#39;埔里&#39;, &#39;復興&#39;, &#39;永和&#39;, &#39;竹山&#39;, &#39;中壢&#39;, &#39;三重&#39;, &#39;冬山&#39;, &#39;宜蘭&#39;, &#39;陽明&#39;, &#39;花蓮&#39;, &#39;臺東&#39;, &#39;恆春&#39;, &#39;潮州&#39;, &#39;屏東&#39;, &#39;小港&#39;, &#39;前鎮&#39;, &#39;前金&#39;, &#39;左營&#39;, &#39;楠梓&#39;, &#39;林園&#39;, &#39;大寮&#39;, &#39;鳳山&#39;, &#39;仁武&#39;, &#39;橋頭&#39;, &#39;美濃&#39;, &#39;臺南&#39;, &#39;安南&#39;, &#39;善化&#39;, &#39;新營&#39;, &#39;嘉義&#39;, &#39;臺西&#39;, &#39;朴子&#39;, &#39;新港&#39;, &#39;崙背&#39;, &#39;斗六&#39;, &#39;南投&#39;, &#39;二林&#39;, &#39;線西&#39;, &#39;彰化&#39;, &#39;西屯&#39;, &#39;忠明&#39;, &#39;大里&#39;, &#39;沙鹿&#39;, &#39;豐原&#39;, &#39;三義&#39;, &#39;苗栗&#39;, &#39;頭份&#39;, &#39;新竹&#39;, &#39;竹東&#39;, &#39;湖口&#39;, &#39;龍潭&#39;, &#39;平鎮&#39;, &#39;觀音&#39;, &#39;大園&#39;, &#39;桃園&#39;, &#39;大同&#39;, &#39;松山&#39;, &#39;古亭&#39;, &#39;萬華&#39;, &#39;中山&#39;, &#39;士林&#39;, &#39;淡水&#39;, &#39;林口&#39;, &#39;菜寮&#39;, &#39;新莊&#39;, &#39;板橋&#39;, &#39;土城&#39;, &#39;新店&#39;, &#39;萬里&#39;, &#39;汐止&#39;, &#39;基隆&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#30001;-HTML-&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#30001; HTML &#25847;&#21462;&#32178;&#38913;&#36039;&#26009;<a class="anchor-link" href="#&#30001;-HTML-&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#24120;&#35211;&#29992;&#20358;&#27161;&#31034;-HTML-&#36039;&#26009;&#30340;&#26041;&#27861;">&#24120;&#35211;&#29992;&#20358;&#27161;&#31034; HTML &#36039;&#26009;&#30340;&#26041;&#27861;<a class="anchor-link" href="#&#24120;&#35211;&#29992;&#20358;&#27161;&#31034;-HTML-&#36039;&#26009;&#30340;&#26041;&#27861;">&#182;</a></h2><ul>
+<li>HTML 的標籤名稱</li>
+<li>HTML 標籤中給予的 id</li>
+<li>HTML 標籤中給予的 class</li>
+<li><strong>資料所在的 CSS 選擇器（CSS Selector）</strong></li>
+<li>資料所在的 XPath</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#24171;&#21161;-CSS-&#36984;&#25799;&#30340;-Chrome-&#22806;&#25499;">&#24171;&#21161; CSS &#36984;&#25799;&#30340; Chrome &#22806;&#25499;<a class="anchor-link" href="#&#24171;&#21161;-CSS-&#36984;&#25799;&#30340;-Chrome-&#22806;&#25499;">&#182;</a></h2><p><a href="https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb">SelectorGadget</a></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="SelectorGadget-&#30340;&#20351;&#29992;&#26041;&#27861;"><a href="https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb">SelectorGadget</a> &#30340;&#20351;&#29992;&#26041;&#27861;<a class="anchor-link" href="#SelectorGadget-&#30340;&#20351;&#29992;&#26041;&#27861;">&#182;</a></h2><ol>
+<li>點選 SelectorGadget 的外掛圖示</li>
+<li>留意 SelectorGadget 的 CSS 選擇器</li>
+<li>移動滑鼠到想要定位的元素</li>
+<li>在想要定位的資料上面點選左鍵，留意 Clear 後面數字表示有多少個元素被選擇到</li>
+<li>移動滑鼠點選不要選擇的元素（改以紅底標記），並同時注意 CSS 選擇器位址與 Clear 後面數字</li>
+</ol>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20197;-Captain-Marvel-(2019)-&#31034;&#31684;-SelectorGadget-&#30340;&#20351;&#29992;&#26041;&#27861;">&#20197; <a href="https://www.imdb.com/title/tt4154664">Captain Marvel (2019)</a> &#31034;&#31684; <a href="https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb">SelectorGadget</a> &#30340;&#20351;&#29992;&#26041;&#27861;<a class="anchor-link" href="#&#20197;-Captain-Marvel-(2019)-&#31034;&#31684;-SelectorGadget-&#30340;&#20351;&#29992;&#26041;&#27861;">&#182;</a></h2><ul>
+<li>評分</li>
+<li>劇情類型</li>
+<li>演員名單</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20351;&#29992;-PyQuery-&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#20351;&#29992; PyQuery &#25847;&#21462;&#32178;&#38913;&#36039;&#26009;<a class="anchor-link" href="#&#20351;&#29992;-PyQuery-&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#182;</a></h2><ul>
+<li>使用 pyquery 模組的 PyQuery() 函數取得 HTML 文件</li>
+<li>指派 CSS 選擇器或 XPath 解析出所需部分資料</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install pyquery</span>
+<span class="kn">from</span> <span class="nn">pyquery</span> <span class="k">import</span> <span class="n">PyQuery</span> <span class="k">as</span> <span class="n">pq</span>
+
+<span class="n">page_url</span> <span class="o">=</span> <span class="s2">&quot;https://www.imdb.com/title/tt4154664&quot;</span>
+<span class="n">html_doc</span> <span class="o">=</span> <span class="n">pq</span><span class="p">(</span><span class="n">page_url</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rating_css</span> <span class="o">=</span> <span class="s2">&quot;strong span&quot;</span>
+<span class="n">rating</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">())</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">html_doc</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">rating_css</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">rating</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>7.2
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">genre_css</span> <span class="o">=</span> <span class="s2">&quot;.subtext a&quot;</span>
+<span class="n">genre</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">html_doc</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">genre_css</span><span class="p">)]</span>
+<span class="n">release_date</span> <span class="o">=</span> <span class="n">genre</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">genre</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">release_date</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[&#39;Action&#39;, &#39;Adventure&#39;, &#39;Sci-Fi&#39;]
+6 March 2019 (Taiwan)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cast_css</span> <span class="o">=</span> <span class="s2">&quot;.primary_photo+ td a&quot;</span>
+<span class="n">cast</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">html_doc</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">cast_css</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cast</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[&#39;Brie Larson&#39;, &#39;Samuel L. Jackson&#39;, &#39;Ben Mendelsohn&#39;, &#39;Jude Law&#39;, &#39;Annette Bening&#39;, &#39;Lashana Lynch&#39;, &#39;Clark Gregg&#39;, &#39;Rune Temte&#39;, &#39;Gemma Chan&#39;, &#39;Algenis Perez Soto&#39;, &#39;Djimon Hounsou&#39;, &#39;Lee Pace&#39;, &#39;Chuku Modu&#39;, &#39;Matthew Maher&#39;, &#39;Akira Akbar&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_movie_data</span><span class="p">(</span><span class="n">movie_url</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Getting movie data from IMDB.com&quot;&quot;&quot;</span>
+    <span class="n">page_url</span> <span class="o">=</span> <span class="s2">&quot;https://www.imdb.com/title/tt4154664&quot;</span>
+    <span class="n">rating_css</span> <span class="o">=</span> <span class="s2">&quot;strong span&quot;</span>
+    <span class="n">genre_css</span> <span class="o">=</span> <span class="s2">&quot;.subtext a&quot;</span>
+    <span class="n">cast_css</span> <span class="o">=</span> <span class="s2">&quot;.primary_photo+ td a&quot;</span>
+    <span class="n">html_doc</span> <span class="o">=</span> <span class="n">pq</span><span class="p">(</span><span class="n">page_url</span><span class="p">)</span>
+    <span class="n">rating</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">())</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">html_doc</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">rating_css</span><span class="p">)][</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">genre</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">html_doc</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">genre_css</span><span class="p">)]</span>
+    <span class="n">release_date</span> <span class="o">=</span> <span class="n">genre</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+    <span class="n">cast</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">html_doc</span><span class="o">.</span><span class="n">items</span><span class="p">(</span><span class="n">cast_css</span><span class="p">)]</span>
+    <span class="n">movie_data</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;movieRating&quot;</span><span class="p">:</span> <span class="n">rating</span><span class="p">,</span>
+        <span class="s2">&quot;movieGenre&quot;</span><span class="p">:</span> <span class="n">genre</span><span class="p">,</span>
+        <span class="s2">&quot;movieReleaseDate&quot;</span><span class="p">:</span> <span class="n">release_date</span><span class="p">,</span>
+        <span class="s2">&quot;movieCast&quot;</span><span class="p">:</span> <span class="n">cast</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">movie_data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_movie_data</span><span class="p">(</span><span class="s2">&quot;https://www.imdb.com/title/tt4154664&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[9]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;movieRating&#39;: 7.2,
+ &#39;movieGenre&#39;: [&#39;Action&#39;, &#39;Adventure&#39;, &#39;Sci-Fi&#39;],
+ &#39;movieReleaseDate&#39;: &#39;6 March 2019 (Taiwan)&#39;,
+ &#39;movieCast&#39;: [&#39;Brie Larson&#39;,
+  &#39;Samuel L. Jackson&#39;,
+  &#39;Ben Mendelsohn&#39;,
+  &#39;Jude Law&#39;,
+  &#39;Annette Bening&#39;,
+  &#39;Lashana Lynch&#39;,
+  &#39;Clark Gregg&#39;,
+  &#39;Rune Temte&#39;,
+  &#39;Gemma Chan&#39;,
+  &#39;Algenis Perez Soto&#39;,
+  &#39;Djimon Hounsou&#39;,
+  &#39;Lee Pace&#39;,
+  &#39;Chuku Modu&#39;,
+  &#39;Matthew Maher&#39;,
+  &#39;Akira Akbar&#39;]}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23526;&#20316;&#32244;&#32722;&#65306;&#22238;&#20659;&#36039;&#26009;&#21152;&#20837;&#29255;&#38263;-movieLength">&#23526;&#20316;&#32244;&#32722;&#65306;&#22238;&#20659;&#36039;&#26009;&#21152;&#20837;&#29255;&#38263; <code>movieLength</code><a class="anchor-link" href="#&#23526;&#20316;&#32244;&#32722;&#65306;&#22238;&#20659;&#36039;&#26009;&#21152;&#20837;&#29255;&#38263;-movieLength">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23526;&#20316;&#32244;&#32722;&#65306;&#35731;-get_movie_data()-&#26356;&#26041;&#20415;&#20351;&#29992;">&#23526;&#20316;&#32244;&#32722;&#65306;&#35731; <code>get_movie_data()</code> &#26356;&#26041;&#20415;&#20351;&#29992;<a class="anchor-link" href="#&#23526;&#20316;&#32244;&#32722;&#65306;&#35731;-get_movie_data()-&#26356;&#26041;&#20415;&#20351;&#29992;">&#182;</a></h2><ul>
+<li>可以輸入電影名稱，而非 URL！</li>
+<li>以 <code>urllib.parse.quote_plus()</code> 製作 query string</li>
+<li>以 <code>.attr('href')</code> 獲得連結</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23526;&#20316;&#32244;&#32722;&#65306;&#25847;&#21462;&#33775;&#33322;&#38651;&#24433;&#28165;&#21934;&#20877;&#21069;&#24448;-IMDB-&#26597;&#35426;&#24179;&#31561;">&#23526;&#20316;&#32244;&#32722;&#65306;&#25847;&#21462;&#33775;&#33322;&#38651;&#24433;&#28165;&#21934;&#20877;&#21069;&#24448; IMDB &#26597;&#35426;&#24179;&#31561;<a class="anchor-link" href="#&#23526;&#20316;&#32244;&#32722;&#65306;&#25847;&#21462;&#33775;&#33322;&#38651;&#24433;&#28165;&#21934;&#20877;&#21069;&#24448;-IMDB-&#26597;&#35426;&#24179;&#31561;">&#182;</a></h2><ul>
+<li><a href="http://www.fantasy-sky.com/ContentList.aspx?section=002">華航電影清單</a></li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#24171;&#21161;&#27298;&#35222;-Cookies-&#30340;-Chrome-&#22806;&#25499;">&#24171;&#21161;&#27298;&#35222; Cookies &#30340; Chrome &#22806;&#25499;<a class="anchor-link" href="#&#24171;&#21161;&#27298;&#35222;-Cookies-&#30340;-Chrome-&#22806;&#25499;">&#182;</a></h2><p><a href="https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg">EditThisCookie</a></p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#25805;&#32305;&#33258;&#21205;&#21270;&#28687;&#35261;&#22120;&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#25805;&#32305;&#33258;&#21205;&#21270;&#28687;&#35261;&#22120;&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;<a class="anchor-link" href="#&#25805;&#32305;&#33258;&#21205;&#21270;&#28687;&#35261;&#22120;&#25847;&#21462;&#32178;&#38913;&#36039;&#26009;">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#22312;&#30740;&#31350;&#22914;&#20309;&#20351;-get_movie_data()-&#26356;&#26041;&#20415;&#30340;&#36942;&#31243;&#20013;&#25105;&#20497;&#20570;&#20102;&#24190;&#20491;&#21205;&#20316;">&#22312;&#30740;&#31350;&#22914;&#20309;&#20351; <code>get_movie_data()</code> &#26356;&#26041;&#20415;&#30340;&#36942;&#31243;&#20013;&#25105;&#20497;&#20570;&#20102;&#24190;&#20491;&#21205;&#20316;<a class="anchor-link" href="#&#22312;&#30740;&#31350;&#22914;&#20309;&#20351;-get_movie_data()-&#26356;&#26041;&#20415;&#30340;&#36942;&#31243;&#20013;&#25105;&#20497;&#20570;&#20102;&#24190;&#20491;&#21205;&#20316;">&#182;</a></h2><ol>
+<li>前往 <a href="https://www.imdb.com/">https://www.imdb.com/</a> 首頁</li>
+<li>輸入電影名稱</li>
+<li>點選搜尋</li>
+<li>點選 Movie 分類標籤</li>
+<li>點選相似度最高的搜尋結果</li>
+</ol>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#36889;&#20123;&#25805;&#20316;&#21487;&#20197;&#21033;&#29992;-selenium-&#27169;&#32068;&#20358;&#33258;&#21205;&#21270;&#65281;">&#36889;&#20123;&#25805;&#20316;&#21487;&#20197;&#21033;&#29992; <code>selenium</code> &#27169;&#32068;&#20358;&#33258;&#21205;&#21270;&#65281;<a class="anchor-link" href="#&#36889;&#20123;&#25805;&#20316;&#21487;&#20197;&#21033;&#29992;-selenium-&#27169;&#32068;&#20358;&#33258;&#21205;&#21270;&#65281;">&#182;</a></h2>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20160;&#40636;&#26159;-Selenium">&#20160;&#40636;&#26159; Selenium<a class="anchor-link" href="#&#20160;&#40636;&#26159;-Selenium">&#182;</a></h2><ul>
+<li>Selenium 是瀏覽器自動化測試的解決方案</li>
+<li>Python 透過 Selenium WebDriver 呼叫瀏覽器驅動程式，再由瀏覽器驅動程式去呼叫瀏覽器</li>
+<li>對 <strong>Google Chrome</strong> 與 Mozilla Firefox 兩個主流瀏覽器的支援最好</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Selenium-&#29872;&#22659;&#35373;&#23450;">Selenium &#29872;&#22659;&#35373;&#23450;<a class="anchor-link" href="#Selenium-&#29872;&#22659;&#35373;&#23450;">&#182;</a></h2><ul>
+<li>前往<a href="https://www.google.com/chrome/">官方網站</a>下載最新版的瀏覽器</li>
+<li>下載最新版的瀏覽器驅動程式 <a href="http://chromedriver.chromium.org/">ChromeDriver</a></li>
+<li>下載完成以後解壓縮在熟悉路徑讓後續指派較為方便</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#28204;&#35430;&#26159;&#21542;&#35373;&#23450;&#23436;&#25104;">&#28204;&#35430;&#26159;&#21542;&#35373;&#23450;&#23436;&#25104;<a class="anchor-link" href="#&#28204;&#35430;&#26159;&#21542;&#35373;&#23450;&#23436;&#25104;">&#182;</a></h2><p>用程式碼透過 ChromeDriver 操控 Chrome 瀏覽器前往 IMDB 首頁並將首頁的網址印出再關閉瀏覽器</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install selenium</span>
+<span class="kn">from</span> <span class="nn">selenium</span> <span class="k">import</span> <span class="n">webdriver</span>
+
+<span class="n">driver_path</span> <span class="o">=</span> <span class="s2">&quot;/Users/kuoyaojen/Downloads/chromedriver&quot;</span>
+<span class="n">imdb_home</span> <span class="o">=</span> <span class="s2">&quot;https://www.imdb.com/&quot;</span>
+<span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Chrome</span><span class="p">(</span><span class="n">executable_path</span><span class="o">=</span><span class="n">driver_path</span><span class="p">)</span> <span class="c1"># Use Chrome</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">imdb_home</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">driver</span><span class="o">.</span><span class="n">current_url</span><span class="p">)</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>https://www.imdb.com/
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#35201;&#20351;&#29992;&#30340;&#26041;&#27861;">&#35201;&#20351;&#29992;&#30340;&#26041;&#27861;<a class="anchor-link" href="#&#35201;&#20351;&#29992;&#30340;&#26041;&#27861;">&#182;</a></h2><ul>
+<li><code>driver.get()</code> ：前往 IMDB 首頁</li>
+<li><code>driver.find_element_by_css_selector()</code> ：定位搜尋欄位、搜尋按鈕與搜尋結果連結</li>
+<li><code>driver.current_url</code> ：取得當下瀏覽器的網址</li>
+<li><code>elem.send_keys()</code> ：輸入電影名稱</li>
+<li><code>elem.click()</code> ：按下搜尋按鈕與連結</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23526;&#20316;&#32244;&#32722;&#65306;&#20197;-selenium-&#23526;&#20316;-get_movie_data()">&#23526;&#20316;&#32244;&#32722;&#65306;&#20197; <code>selenium</code> &#23526;&#20316; <code>get_movie_data()</code><a class="anchor-link" href="#&#23526;&#20316;&#32244;&#32722;&#65306;&#20197;-selenium-&#23526;&#20316;-get_movie_data()">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#24310;&#20280;&#38321;&#35712;">&#24310;&#20280;&#38321;&#35712;<a class="anchor-link" href="#&#24310;&#20280;&#38321;&#35712;">&#182;</a></h2><ul>
+<li><a href="http://docs.python-requests.org/en/master/">Requests: HTTP for Humans</a></li>
+<li><a href="https://pythonhosted.org/pyquery/">pyquery: a jquery-like library for python</a></li>
+<li><a href="https://selenium-python.readthedocs.io/">Selenium with Python</a></li>
+<li><a href="https://www.datainpoint.com/data-science-in-action/04-scraping-web-statically.html">靜態擷取網頁內容</a></li>
+<li><a href="https://www.datainpoint.com/data-science-in-action/05-scraping-web-dynamically.html">動態擷取網頁內容</a></li>
+</ul>
+
+</div>
+</div>
 </div></section></section>
 </div>
 </div>
