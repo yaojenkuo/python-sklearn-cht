@@ -1,40 +1,44 @@
-# Python Scikit-Learn Introduction
+# Python資料科學實務工作坊
 
 ## 簡介
 
-這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在中華電信學院的 Python 課程，課程時數 6 小時。
+這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在中華電信學院的 Python資料科學實務工作坊，課程時數 24 小時。
 
-## 課堂互動工具（Event Code:2424）
+## 課堂互動工具（Event Code:E534）
 
 <https://www.sli.do/>
 
 ## 共筆
 
-<https://colab.research.google.com/drive/146IPrcO8UCy0xJNRw3ZPKFu2WARFB43F>
-
-## 課程教科書
-
-[Python資料科學學習手冊](https://www.books.com.tw/products/0010774364)
+<https://colab.research.google.com/drive/1NzkRd24_i3chFdzSX6ugDAn06ABWS_Nz>
 
 ## 課程投影片（html）
 
-- [Preliminaries](https://yaojenkuo.io/python-sklearn-cht/00-Preliminaries.slides.html#/)
-- [Machine Learning Intro](https://yaojenkuo.io/python-sklearn-cht/01-Machine-Learning-Intro.slides.html#/)
-- [Classification](https://yaojenkuo.io/python-sklearn-cht/02-Classification.slides.html#/)
-- [Regression](https://yaojenkuo.io/python-sklearn-cht/03-Regression.slides.html#/)
-- [Unsupervised Learning](https://yaojenkuo.io/python-sklearn-cht/04-Unsupervised-Learning.slides.html#/)
-- [Validation](https://yaojenkuo.io/python-sklearn-cht/05-Validation.slides.html#/)
+- [00 Preliminaries](https://yaojenkuo.io/python-sklearn-cht/00-Preliminaries.slides.html#/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python-sklearn-cht/01-Web-Scraping-101.slides.html#/)
+- [02 NumPy 101](https://yaojenkuo.io/python-sklearn-cht/02-Numpy-101.slides.html#/)
+- [03 Pandas 101](https://yaojenkuo.io/python-sklearn-cht/03-Pandas-101.slides.html#/)
+- [04 Matplotlib PyPlot 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.slides.html#/)
+- [05 Introduction to Machine Learning](https://yaojenkuo.io/python-sklearn-cht/05-Machine-Learning-Intro.slides.html#/)
+- [06 Classification](06-Classification.slides.html)
+- [07 Regression](07-Regression.slides.html)
+- [08 Classification](08-Unsupervised-Learning.slides.html)
+- [09 Validation](09-Validation.slides.html)
 
 ## 課程投影片（pdf）
 
-- [Preliminaries](https://yaojenkuo.io/python-sklearn-cht/00-Preliminaries-slides.pdf)
-- [Machine Learning Intro](https://yaojenkuo.io/python-sklearn-cht/01-Machine-Learning-Intro-slides.pdf)
-- [Classification](https://yaojenkuo.io/python-sklearn-cht/02-Classification-slides.pdf)
-- [Regression](https://yaojenkuo.io/python-sklearn-cht/03-Regression-slides.pdf)
-- [Unsupervised Learning](https://yaojenkuo.io/python-sklearn-cht/04-Unsupervised-Learning-slides.pdf)
-- [Validation](https://yaojenkuo.io/python-sklearn-cht/05-Validation-slides.pdf)
+- [00 Preliminaries](https://yaojenkuo.io/python-sklearn-cht/00-Preliminaries.pdf/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python-sklearn-cht/01-Web-Scraping-101.pdf/)
+- [02 NumPy 101](https://yaojenkuo.io/python-sklearn-cht/02-Numpy-101.pdf/)
+- [03 Pandas 101](https://yaojenkuo.io/python-sklearn-cht/03-Pandas-101.pdf/)
+- [04 Matplotlib PyPlot 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.pdf/)
+- [05 Introduction to Machine Learning](https://yaojenkuo.io/python-sklearn-cht/05-Machine-Learning-Intro.pdf/)
+- [06 Classification](06-Classification.pdf)
+- [07 Regression](07-Regression.pdf)
+- [08 Classification](08-Unsupervised-Learning.pdf)
+- [09 Validation](09-Validation.pdf)
 
 ## 其他學習資源
 
-- [Datainpoint](https://medium.com/datainpoint)
+- [Datainpoint](https://www.datainpoint.com)
 - [DataCamp](https://www.datacamp.com?tap_a=5644-dce66f&tap_s=194899-1fb421)
