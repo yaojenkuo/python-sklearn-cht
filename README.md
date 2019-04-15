@@ -4,7 +4,7 @@
 
 這是[郭耀仁](https://www.facebook.com/yaojen.kuo.1)在中華電信學院的 Python資料科學實務工作坊，課程時數 24 小時。
 
-## 課堂互動工具（Event Code:E534）
+## 課堂互動工具（Event Code:2873）
 
 <https://www.sli.do/>
 
