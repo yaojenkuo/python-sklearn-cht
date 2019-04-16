@@ -13374,17 +13374,6 @@ like a database system would do.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Machine-Learning-Topics-in-Depth">Machine Learning Topics in Depth<a class="anchor-link" href="#Machine-Learning-Topics-in-Depth">&#182;</a></h2><ul>
-<li>Supervised Learning: Finding function $\hat{f}$ which can be used to assign a class or value to unseen observations given a set of labeled observations.</li>
-<li>Unsupervised Learning: Finding groups observation that are similar or using less vairiables to achieve similar predictability.</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Measuring-performance">Measuring performance<a class="anchor-link" href="#Measuring-performance">&#182;</a></h2><ul>
 <li>Supervised Learning: Comparing real labels with predicted labels, great performance means predictions should be similar to real labels</li>
 <li>Unsupervised Learning: No real labels to compare</li>
@@ -13942,8 +13931,8 @@ Downloading sample_submission.csv to /Users/kuoyaojen/python-sklearn-cht
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_url</span> <span class="o">=</span> <span class="s2">&quot;https://storage.googleapis.com/kaggle_datasets/House-Prices-Advanced-Regression-Techniques/train.csv&quot;</span>
 <span class="n">train_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">train_url</span><span class="p">)</span>
-<span class="n">X_train</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;GrLivArea&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="n">y_train</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;SalePrice&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;GrLivArea&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">y_train</span> <span class="o">=</span> <span class="n">train_df</span><span class="p">[</span><span class="s2">&quot;SalePrice&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">reg</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
 <span class="n">reg</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">reg</span><span class="o">.</span><span class="n">intercept_</span><span class="p">)</span>
