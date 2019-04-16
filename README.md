@@ -27,16 +27,16 @@
 
 ## 課程投影片（pdf）
 
-- [00 Preliminaries](https://yaojenkuo.io/python-sklearn-cht/00-Preliminaries.pdf/)
-- [01 Web Scraping 101](https://yaojenkuo.io/python-sklearn-cht/01-Web-Scraping-101.pdf/)
-- [02 NumPy 101](https://yaojenkuo.io/python-sklearn-cht/02-Numpy-101.pdf/)
-- [03 Pandas 101](https://yaojenkuo.io/python-sklearn-cht/03-Pandas-101.pdf/)
-- [04 Matplotlib PyPlot 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.pdf/)
-- [05 Introduction to Machine Learning](https://yaojenkuo.io/python-sklearn-cht/05-Machine-Learning-Intro.pdf/)
-- [06 Classification](06-Classification.pdf)
-- [07 Regression](07-Regression.pdf)
-- [08 Classification](08-Unsupervised-Learning.pdf)
-- [09 Validation](09-Validation.pdf)
+- [00 Preliminaries](00-Preliminaries-slides.pdf/)
+- [01 Web Scraping 101](01-Web-Scraping-101-slides.pdf/)
+- [02 NumPy 101](02-Numpy-101-slides.pdf/)
+- [03 Pandas 101](03-Pandas-101-slides.pdf/)
+- [04 Matplotlib PyPlot 101](04-Matplotlib-Pyplot-101-slides.pdf/)
+- [05 Introduction to Machine Learning](05-Machine-Learning-Intro-slides.pdf/)
+- [06 Classification](06-Classification-slides.pdf)
+- [07 Regression](07-Regression-slides.pdf)
+- [08 Classification](08-Unsupervised-Learning-slides.pdf)
+- [09 Validation](09-Validation-slides.pdf)
 
 ## 其他學習資源
 
