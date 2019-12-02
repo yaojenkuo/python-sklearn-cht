@@ -26,9 +26,9 @@
 
 ## 課程投影片（pdf）
 
-- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101-slides.pdf/)
-- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101-slides.pdf/)
-- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101-slides.pdf/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101-slides.pdf)
+- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101-slides.pdf)
+- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101-slides.pdf)
 - [04 Matplotlib PyPlot 101](04-Matplotlib-Pyplot-101-slides.pdf/)
 - [05 Introduction to Machine Learning](05-Machine-Learning-Intro-slides.pdf/)
 - [06 Classification](06-Classification-slides.pdf)
@@ -38,5 +38,6 @@
 
 ## 其他學習資源
 
+- [我的 Medium 部落格](https://medium.com/datainpoint)
 - [Datainpoint](https://www.datainpoint.com)
 - [DataCamp](https://www.datacamp.com?tap_a=5644-dce66f&tap_s=194899-1fb421)
