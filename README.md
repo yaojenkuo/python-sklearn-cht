@@ -15,6 +15,7 @@
 ## 課程投影片（html）
 
 - [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html#/)
+- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102.slides.html#/)
 - [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101.slides.html)
 - [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101.slides.html#/)
 - [04 Matplotlib 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.slides.html#/)
@@ -27,6 +28,7 @@
 ## 課程投影片（pdf）
 
 - [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101-slides.pdf)
+- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102-slides.pdf)
 - [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101-slides.pdf)
 - [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101-slides.pdf)
 - [04 Matplotlib PyPlot 101](04-Matplotlib-Pyplot-101-slides.pdf/)
