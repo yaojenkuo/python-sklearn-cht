@@ -1,4 +1,4 @@
-# Python資料科學實務工作坊
+# Python 資料科學實務工作坊
 
 ## 簡介
 
@@ -10,15 +10,14 @@
 
 ## 共筆
 
-<https://colab.research.google.com/drive/1NzkRd24_i3chFdzSX6ugDAn06ABWS_Nz>
+<https://colab.research.google.com/drive/1msU372SpzMUWRUff8dQRV7kNBq_HTIbQ>
 
 ## 課程投影片（html）
 
-- [00 Preliminaries](https://yaojenkuo.io/python-sklearn-cht/00-Preliminaries.slides.html#/)
-- [01 Web Scraping 101](https://yaojenkuo.io/python-sklearn-cht/01-Web-Scraping-101.slides.html#/)
-- [02 NumPy 101](https://yaojenkuo.io/python-sklearn-cht/02-Numpy-101.slides.html#/)
-- [03 Pandas 101](https://yaojenkuo.io/python-sklearn-cht/03-Pandas-101.slides.html#/)
-- [04 Matplotlib PyPlot 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.slides.html#/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html#/)
+- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-Numpy-101.slides.html#/)
+- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-Pandas-101.slides.html#/)
+- [04 Matplotlib 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.slides.html#/)
 - [05 Introduction to Machine Learning](https://yaojenkuo.io/python-sklearn-cht/05-Machine-Learning-Intro.slides.html#/)
 - [06 Classification](06-Classification.slides.html)
 - [07 Regression](07-Regression.slides.html)
@@ -27,10 +26,9 @@
 
 ## 課程投影片（pdf）
 
-- [00 Preliminaries](00-Preliminaries-slides.pdf/)
-- [01 Web Scraping 101](01-Web-Scraping-101-slides.pdf/)
-- [02 NumPy 101](02-Numpy-101-slides.pdf/)
-- [03 Pandas 101](03-Pandas-101-slides.pdf/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101-slides.pdf/)
+- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101-slides.pdf/)
+- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101-slides.pdf/)
 - [04 Matplotlib PyPlot 101](04-Matplotlib-Pyplot-101-slides.pdf/)
 - [05 Introduction to Machine Learning](05-Machine-Learning-Intro-slides.pdf/)
 - [06 Classification](06-Classification-slides.pdf)
