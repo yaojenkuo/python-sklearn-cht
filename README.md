@@ -14,12 +14,13 @@
 
 ## 課程投影片（html）
 
-- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html#/)
-- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102.slides.html#/)
-- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101.slides.html)
-- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101.slides.html#/)
-- [04 Matplotlib 101](https://yaojenkuo.io/python-sklearn-cht/04-Matplotlib-Pyplot-101.slides.html#/)
-- [05 Introduction to Machine Learning](https://yaojenkuo.io/python-sklearn-cht/05-Machine-Learning-Intro.slides.html#/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html/)
+- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102.slides.html/)
+- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101.slides.html/)
+- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101.slides.html/)
+- [04 Matplotlib 101](https://yaojenkuo.io/python_4_ds/07-matplotlib-101.slides.html/)
+- [05 Introduction to Machine Learning](https://yaojenkuo.io/pyml-101/02-intro.slides.html/)
+- [06 Sklearn 101](https://yaojenkuo.io/pyml-101/03-sklearn-101.slides.html/)
 - [06 Classification](06-Classification.slides.html)
 - [07 Regression](07-Regression.slides.html)
 - [08 Classification](08-Unsupervised-Learning.slides.html)
@@ -27,12 +28,13 @@
 
 ## 課程投影片（pdf）
 
-- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101-slides.pdf)
-- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102-slides.pdf)
-- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101-slides.pdf)
-- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101-slides.pdf)
-- [04 Matplotlib PyPlot 101](04-Matplotlib-Pyplot-101-slides.pdf/)
-- [05 Introduction to Machine Learning](05-Machine-Learning-Intro-slides.pdf/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html?print-pdf)
+- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102.slides.html?print-pdf)
+- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101.slides.html?print-pdf)
+- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101.slides.html?print-pdf)
+- [04 Matplotlib PyPlot 101](https://yaojenkuo.io/python_4_ds/07-matplotlib-101.slides.html?print-pdf)
+- [05 Introduction to Machine Learning](https://yaojenkuo.io/pyml-101/02-intro.slides.html?print-pdf)
+- [06 Sklearn 101](https://yaojenkuo.io/pyml-101/03-sklearn-101.slides.html?print-pdf)
 - [06 Classification](06-Classification-slides.pdf)
 - [07 Regression](07-Regression-slides.pdf)
 - [08 Classification](08-Unsupervised-Learning-slides.pdf)
