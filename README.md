@@ -23,7 +23,7 @@
 - [06 Sklearn 101](https://yaojenkuo.io/pyml-101/03-sklearn-101.slides.html/)
 - [07 Regression 101](https://yaojenkuo.io/pyml-101/04-regression-101.slides.html)
 - [08 Gradient Descent 101](https://yaojenkuo.io/pyml-101/05-gradient-descent.slides.html)
-- [09 Classification 101](06-Classification.slides.html)
+- [09 Classification 101](https://yaojenkuo.io/pyml-101/06-classification-101.slides.html)
 
 ## 課程投影片（pdf）
 
@@ -36,7 +36,7 @@
 - [06 Sklearn 101](https://yaojenkuo.io/pyml-101/03-sklearn-101.slides.html?print-pdf)
 - [07 Regression 101](https://yaojenkuo.io/pyml-101/04-regression-101.slides.html?print-pdf)
 - [08 Gradient Descent 101](https://yaojenkuo.io/pyml-101/05-gradient-descent.slides.html?print-pdf)
-- [09 Classification 101](06-Classification.slides.html?print-pdf)
+- [09 Classification 101](https://yaojenkuo.io/pyml-101/06-classification-101.slides.html?print-pdf)
 
 ## 其他學習資源
 
