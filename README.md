@@ -14,13 +14,13 @@
 
 ## 課程投影片（html）
 
-- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html/)
-- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102.slides.html/)
-- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101.slides.html/)
-- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101.slides.html/)
-- [04 Matplotlib 101](https://yaojenkuo.io/python_4_ds/07-matplotlib-101.slides.html/)
-- [05 Introduction to Machine Learning](https://yaojenkuo.io/pyml-101/02-intro.slides.html/)
-- [06 Sklearn 101](https://yaojenkuo.io/pyml-101/03-sklearn-101.slides.html/)
+- [01 Web Scraping 101](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html)
+- [01 Web Scraping 102](https://yaojenkuo.io/python_4_ds/03-web-scraping-102.slides.html)
+- [02 NumPy 101](https://yaojenkuo.io/python_4_ds/04-numpy-101.slides.html)
+- [03 Pandas 101](https://yaojenkuo.io/python_4_ds/05-pandas-101.slides.html)
+- [04 Matplotlib 101](https://yaojenkuo.io/python_4_ds/07-matplotlib-101.slides.html)
+- [05 Introduction to Machine Learning](https://yaojenkuo.io/pyml-101/02-intro.slides.html)
+- [06 Sklearn 101](https://yaojenkuo.io/pyml-101/03-sklearn-101.slides.html)
 - [07 Regression 101](https://yaojenkuo.io/pyml-101/04-regression-101.slides.html)
 - [08 Gradient Descent 101](https://yaojenkuo.io/pyml-101/05-gradient-descent.slides.html)
 - [09 Classification 101](https://yaojenkuo.io/pyml-101/06-classification-101.slides.html)
